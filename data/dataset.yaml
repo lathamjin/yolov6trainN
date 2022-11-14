@@ -1,0 +1,10 @@
+# Please insure that your custom_dataset are put in same parent dir with YOLOv6_DIR
+train: /kaggle/working/StarfishDataset/images/train # train images
+val: /kaggle/working/StarfishDataset/images/val # val images
+#test: c:/Users/Latham/Desktop/YOLOv6-main/Starfishdataset/images/test # test images (optional)
+
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: False
+# Classes
+nc: 1  # number of classes
+names: ['starfish']  # class names
